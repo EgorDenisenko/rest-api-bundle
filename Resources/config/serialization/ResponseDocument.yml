@@ -1,0 +1,14 @@
+Onixcat\Bundle\RestApiBundle\ResponseDocument:
+    attributes:
+        data:
+            groups: ['default']
+        included:
+            groups: ['default']
+        page:
+            groups: ['default']
+        meta:
+            groups: ['default']
+        t:
+            groups: ['default']
+        messages:
+            groups: ['messages']

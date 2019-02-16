@@ -1,0 +1,27 @@
+{
+    "name": "onixcat/rest-api-bundle",
+    "description": "RestApi functionality",
+    "type" : "symfony-bundle",
+    "license" : "MIT",
+    "keywords" : ["api", "bundle", "rest"],
+    "authors": [
+        {
+            "name": "Denis Krasilnikov",
+            "email" : "d.krasilnikov@onixcat.com"
+        },
+        {
+            "name": "Yehor Denisenko",
+            "email" : "e.denisenko@onixcat.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/framework-bundle": "^3.3 || ^4.0",
+        "symfony/serializer": "^3.3 || ^4.0",
+        "doctrine/common": "^2.7",
+        "phpdocumentor/reflection-docblock": "^4.1"
+    },
+    "autoload": {
+        "psr-4" : { "Onixcat\\Bundle\\RestApiBundle\\" : "" }
+    }
+}
